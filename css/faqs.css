@@ -1,0 +1,89 @@
+.continerr{
+    justify-content: space-around;
+}
+.continerr h6{
+    font-weight: bold;
+}
+.Steps{
+    background-image: url(../images/video-bg.jpg);
+}
+.Items span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Items span img{
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+.the_four{
+    background-color: #a84cf4;
+    border-radius: 30px;
+}
+.the_four .Items{
+    border: none;
+}
+.Questions{
+    margin-left: 10%;
+}
+.Accordion .left{
+    width: 50%;
+}
+.accordion-body a{
+    text-decoration: none;
+}
+.accordion-item .accordion-button{
+    color: #7e38ef;
+    font-weight: bold;
+}
+.Accordion{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Accordion .right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+.Accordion .right a{
+    text-decoration: none;
+    background-color: #5b03e4;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    transition: .3s;
+}
+.Accordion .right a:hover{
+    background-color: #a84cf4;
+}
+input{
+    width: 100%;
+}
+@media screen and (min-width: 130px) and (max-width:850px){
+    .Accordion{
+        flex-direction: column;
+    }
+    .Accordion .left{
+        width: 100%;
+        margin: 30px;
+    }
+    .accordion{
+        margin: 0 30px;
+    }
+    .collapse {
+        margin-right: 0px;
+    }
+    .Accordion .right{
+        width: 90%;
+    }
+}

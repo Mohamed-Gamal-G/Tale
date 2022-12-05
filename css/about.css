@@ -1,0 +1,215 @@
+.continerr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+.nn {
+    border: none;
+}
+@media screen and (min-width:1230px) and (max-width:1600px) {
+    .image {
+        height: 700px;
+    }
+    .image .continer img {
+        margin-bottom: 200px;
+    }
+}
+@media screen and (min-width:150px) and (max-width:1100px) {
+    .continerr {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+}
+.image {
+    margin-top: 100px;
+    background-image: url(../images/video-bg.jpg);
+}
+.image .continer img {
+    margin-bottom: 200px;
+    border-radius: 30px;
+}
+.right_sidee {
+    padding: 30px;
+}
+.white {
+    color: #fff;
+}
+.rel {
+    position: relative;
+}
+.rel i {
+    position: absolute;
+    top: 41%;
+    right: 72%;
+    color: var(--purple-color);
+    background-color: #fff;
+    font-size: xxx-large;
+    border-radius: 50%;
+}
+@media screen and (min-width:1230px) and (max-width:1500px) {
+    .rel i {
+        right: 65%;
+    }
+}
+@media screen and (min-width:1050px) and (max-width:1229px) {
+    .rel i {
+        top: 32%;
+        right: 47%;
+    }
+}
+@media screen and (min-width:800px) and (max-width:1049px) {
+    .rel i {
+        top: 26%;
+        right: 47%;
+    }
+}
+@media screen and (min-width:600px) and (max-width:799px) {
+    .rel i {
+        top: 23%;
+        right: 47%;
+    }
+}
+@media screen and (min-width:500px) and (max-width:599px) {
+    .rel i {
+        top: 20%;
+        right: 47%;
+    }
+}
+@media screen and (min-width:400px) and (max-width:499px) {
+    .rel i {
+        top: 17%;
+        right: 44%;
+    }
+}
+@media screen and (min-width:40px) and (max-width:399px) {
+    .rel i {
+        top: 13%;
+        right: 44%;
+    }
+}
+.progress-bar {
+    background-color: var(--purple-color);
+}
+.Steps {
+    padding-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(../images/banner-left.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.the_four {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.the_four .Items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(128, 127, 127);
+    border-radius: 30px;
+}
+.the_four .Items span {
+    padding: 25px;
+    font-weight: bold;
+    font-size: large;
+    margin: 20px;
+    border-left: 1px solid rgb(128, 127, 127);
+}
+.the_four .Items span:first-child {
+    border-left: none;
+}
+.Best {
+    margin: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.four_items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.four_items span {
+    padding: 10px 20px;
+    font-weight: bold;
+    background-color: var(--purple-color);
+    border-radius: 40px;
+    margin: 10px;
+    color: #fff;
+}
+@media screen and (min-width:40px) and (max-width:1300px) {
+    .the_four .Items {
+        flex-direction: column;
+    }
+    .Best {
+        flex-direction: column;
+    }
+    .the_four .Items span {
+        border-top: 1px solid rgb(128, 127, 127);
+        border-left: none;
+    }
+    .the_four .Items span:first-child {
+        border-top: none;
+    }
+}
+@media screen and (min-width:529px) and (max-width:840px) {
+    .four_items {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (min-width:59px) and (max-width:530px) {
+    .four_items {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+.Ready{
+    background-image: url(../images/infos-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 70px;
+}
+.Ready h2{
+    color: #fff;
+    font-weight: bold;
+}
+.Ready a{
+    background-color: #fff;
+    color: #5b03e4;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    transition: .3s;
+}
+.Ready a:hover{
+    opacity: .8;
+}
+@media screen and (min-width:40px) and (max-width:1000px) {
+    .Ready{
+        flex-direction: column;
+        padding: 70px 30px;
+    }
+    .Ready a{
+        margin-top: 20px;
+    }
+}
+@media screen and (min-width:40px) and (max-width:500px) {
+    .continerr img,
+    .Best img{
+        width: 100%;
+    }
+    .Steps h2,
+    .Steps p{
+        margin-left: 30px;
+    }
+}
